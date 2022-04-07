@@ -7,48 +7,48 @@
 
 
 body{
-font-family: 'Roboto', sans-serif;
-background-color: #edebf3;
-font-size:14px;
-line-height: 1.42857143;
-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edebf3;
+    font-size:14px;
+    line-height: 1.42857143;
+    height: 100vh;
 
 }
 header{
-    background-color: #2229B5;   
+    background-color: #818F9D;   
 }
 
 .wrapper_section{
     /* max-width: 1110px; */
     padding: 15px 0 15px 0;
-   margin: 0 270px 0 40px; 
+    margin: 0 270px 0 40px; 
 
 }
 
 .wrapper{
     /* max-width: 1110px; */
     padding: 15px 0 15px 0;
-   margin: 0 40px 0 40px; 
+    margin: 0 40px 0 40px; 
 
 }
 .nav{
-display: flex;
-list-style-type: none;
-justify-content:center;
-padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+    padding-left: 0;
 
 
 }
 .nav>li{
-margin-left: 10px;
-margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .nav>li>a{
-    color: rgb(122, 206, 26);
+    color: white;
     text-decoration: none;
 }
 .header{
-    background:white ;
+    background:#818F9D ;
 }
 .header-top{
     display: flex;
@@ -57,22 +57,22 @@ margin-right: 10px;
     padding: 10px 0;   
 }
 .logo{
-color: #2229B5;
-font-size: 36px;
-font-weight: 700;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .header-info{
-font-size: 16px;
+    font-size: 16px;
 }
 .header-info button{
     font-size: 14px;
     border-radius: 20px;
-    border: 2px solid #2229B5;
+    border: 2px solid #a3a4ac;
     background-color: transparent;
     padding: 10px 15px;
     margin-left: 20px;
-    color: #2229B5;
+    color: white;
 
 }
 .header-bottom{
@@ -83,19 +83,19 @@ font-size: 16px;
 }
 hr{
    border: none;
-   border: 1px solid #2229B5; 
+   border: 1px solid #a3a4ac; 
 }
 .banner{
     background: #22297A;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: whitesmoke;
+    color: white;
     
 
 }
 .title{
-font-size: 32px;
-font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
 }
 .banner p{
     margin-bottom: 35px;
@@ -104,16 +104,135 @@ font-weight: 700;
 
 }
 .btn{
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
     border-radius: 20px;
-    border: 2px solid whitesmoke;
+    border: 2px solid #a3a4ac;
     background-color: transparent;
     padding: 10px 15px;
       
 }
 section{
-display: flex;
-align-items: center
+    display: flex;
+    align-items: center
 }
 
+.footer-flex {
+    display: flex;
+    padding: 2rem;
+    background-color: #818F9D;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .icon-section{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    font-size: 18px;
+    color: white;
+  }
+  ul{
+    line-height: 1.5rem;
+    list-style: none;
+    color: white;
+  }
+ 
+i{
+    margin-right: 10px;
+    font-size: 18px;
+    max-width: 50px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+h3{
+    color: white;
+    font-size: 18px;
+    
+}
+span{
+    font-size: 16px;
+    color: white;
+ 
+}
+.customer ul>li>a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+  
+
+@media (max-width:768px){
+    .banner .btn{
+
+        font-size: 18px;
+       
+    
+    } 
+    .header-top{
+        flex-direction: column
+    } 
+    .header-info {
+        font-size: 18px; 
+    }
+    
+    .nav{
+        flex-direction: column;
+        align-items: center; 
+        padding: 15px 0 15px 0;  
+    }
+    li{
+        line-height: 1.8;
+        font-size: 18px; 
+      
+    }
+   
+    .banner p{
+        
+        line-height: 1.8;
+    }
+    .logo{
+        margin-bottom: 15px;
+    }
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        }
+        .wrapper_section{
+        margin: 0 27px 0 40px;   
+        }
+        .header-info button{
+        font-size: 18px;
+        }
+        body{
+            font-size: 20px;   
+        }
+        .footer-flex{
+            flex-wrap: wrap   
+        }
+        .customer ul>li>a{
+        
+            font-size: 18px;
+        }
+        span{
+            font-size: 18px;
+            
+        }
+        i{
+            
+            font-size: 18px;
+        }
+        h3{
+            margin-top: 10px;
+        }
+
+
+}
+.header>.wrapper>nav>li>a{
+    color: rgb(218, 14, 14);
+}

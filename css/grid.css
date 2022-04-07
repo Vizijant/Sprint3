@@ -29,6 +29,9 @@ a{
     color: var(--text);
 
 }
+h1{
+    color: var(--text);
+}
 h2{
     color: var(--text);
     margin: 16px 0 5px 5px;
@@ -39,14 +42,14 @@ h3{
     margin: 8px 0;
     font-weight: 800;
 
-    /* color: var(--text); */
+    color: var(--text);
 }
 p{
     margin: 16px 0;
     line-height: 1.75;
     font-weight: 400;
     padding: 0 15px 0 15px;
-    /* color: var(--text); */
+    color: var(--text);
 }
 img{
     max-width: 100%;
@@ -61,7 +64,7 @@ header{
     
 }
 nav{
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -83,7 +86,7 @@ li{
     
 }
 nav ul li span{
-color: var(--text);
+    color: var(--text);
 
 }
 .gridcontainer{
@@ -95,30 +98,30 @@ color: var(--text);
     margin: 0 auto;
 }
 header{
-grid-column-start: span 3;
-background-color: #708090e0;
+    grid-column-start: span 3;
+    background-color: #708090e0;
 }
 aside{
-grid-column-start: span 1;
-background: url(./img/photo.avif) no-repeat;
+    grid-column-start: span 1;
+    background: url(../img/photo.avif) no-repeat;
     background-size: cover;
-padding:80px 0 0 30px;  
+    padding:80px 0 0 30px;  
     }
 main{ 
-grid-column-start: span 2; 
-background-color: #7080903b;   
+    grid-column-start: span 2; 
+    background-color: #7080903b;   
 }
 
 footer{
-grid-column-start: span 3;
-background-color: #3f5468;
-position: relative;
-bottom: 0;
-width: 100%;
-text-align: center;
-vertical-align: top;
-font-size: 1rem;
-padding: 1rem 0;
+    grid-column-start: span 3;
+    background-color: #3f5468;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1rem;
+    padding: 1rem 0;
 
 }
 footer p{
